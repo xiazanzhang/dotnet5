@@ -1,0 +1,27 @@
+2021-01-13 17:44:00.3582||INFO||Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-01-13 17:44:00.4155||INFO||Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-01-13 17:44:00.4301||INFO||Microsoft.Hosting.Lifetime|Content root path: C:\Project\codeuin\CodeUin\CodeUin.WebApi 
+2021-01-13 17:50:31.9340||INFO||Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-01-13 17:50:32.0142||INFO||Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-01-13 17:50:32.0365||INFO||Microsoft.Hosting.Lifetime|Content root path: C:\Project\codeuin\CodeUin\CodeUin.WebApi 
+2021-01-13 18:44:06.6068||INFO||Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-01-13 18:44:06.7160||INFO||Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-01-13 18:44:06.7756||INFO||Microsoft.Hosting.Lifetime|Content root path: C:\Project\codeuin\CodeUin\CodeUin.WebApi 
+2021-01-13 18:44:08.2004|1|ERROR|::1|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: The response headers cannot be modified because the response has already started.
+   at Microsoft.AspNetCore.HttpSys.Internal.HeaderCollection.ThrowIfReadOnly()
+   at Microsoft.AspNetCore.HttpSys.Internal.HeaderCollection.set_Item(String key, StringValues value)
+   at Microsoft.AspNetCore.Http.DefaultHttpResponse.set_ContentType(String value)
+   at CodeUin.WebApi.Helpers.ErrorHandlingMiddleware.HandleExceptionAsync(HttpContext context, Int32 statusCode, String msg) in C:\Project\codeuin\CodeUin\CodeUin.WebApi\Helpers\ErrorHandlingMiddleware.cs:line 68
+   at CodeUin.WebApi.Helpers.ErrorHandlingMiddleware.Invoke(HttpContext context) in C:\Project\codeuin\CodeUin\CodeUin.WebApi\Helpers\ErrorHandlingMiddleware.cs:line 58
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-01-13 18:44:08.2287|2|WARN|::1|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|The response has already started, the error page middleware will not be executed. 
+2021-01-13 18:44:08.2401|2|ERROR|::1|Microsoft.AspNetCore.Server.IIS.Core.IISHttpServer|Connection ID "18302628900129210370", Request ID "80000003-0003-fe00-b63f-84710c7967bb": An unhandled exception was thrown by the application. System.InvalidOperationException: The response headers cannot be modified because the response has already started.
+   at Microsoft.AspNetCore.HttpSys.Internal.HeaderCollection.ThrowIfReadOnly()
+   at Microsoft.AspNetCore.HttpSys.Internal.HeaderCollection.set_Item(String key, StringValues value)
+   at Microsoft.AspNetCore.Http.DefaultHttpResponse.set_ContentType(String value)
+   at CodeUin.WebApi.Helpers.ErrorHandlingMiddleware.HandleExceptionAsync(HttpContext context, Int32 statusCode, String msg) in C:\Project\codeuin\CodeUin\CodeUin.WebApi\Helpers\ErrorHandlingMiddleware.cs:line 68
+   at CodeUin.WebApi.Helpers.ErrorHandlingMiddleware.Invoke(HttpContext context) in C:\Project\codeuin\CodeUin\CodeUin.WebApi\Helpers\ErrorHandlingMiddleware.cs:line 58
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContextOfT`1.ProcessRequestAsync()
+2021-01-13 18:59:57.3164||ERROR|::1|CodeUin.WebApi.Helpers.ErrorHandlingMiddleware|No connection is active/available to service this operation: SET token:10000; UnableToConnect on localhost:6379/Interactive, Initializing/NotStarted, last: NONE, origin: BeginConnectAsync, outstanding: 0, last-read: 2s ago, last-write: 2s ago, keep-alive: 60s, state: Connecting, mgr: 10 of 10 available, last-heartbeat: never, global: 2s ago, v: 2.2.4.27433, mc: 1/1/0, mgr: 10 of 10 available, clientName: DESKTOP-KPM6QSM, IOCP: (Busy=0,Free=1000,Min=4,Max=1000), WORKER: (Busy=1,Free=32766,Min=4,Max=32767), v: 2.2.4.27433 

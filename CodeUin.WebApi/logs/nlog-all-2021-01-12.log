@@ -1,0 +1,111 @@
+2021-01-12 09:51:13.2423||INFO||Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-01-12 09:51:13.3426||INFO||Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-01-12 09:51:13.3586||INFO||Microsoft.Hosting.Lifetime|Content root path: C:\Project\codeuin\CodeUin\CodeUin.WebApi 
+2021-01-12 10:11:43.5605||INFO|::1|CodeUin.WebApi.Controllers.UsersController|-------用户注册------- 
+2021-01-12 10:12:28.5579||INFO|::1|CodeUin.WebApi.Controllers.UsersController|-------用户注册------- 
+2021-01-12 10:12:42.0782||INFO|::1|CodeUin.WebApi.Controllers.UsersController|-------用户注册------- 
+2021-01-12 10:46:28.2243||INFO||Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-01-12 10:46:28.2912||INFO||Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-01-12 10:46:28.3212||INFO||Microsoft.Hosting.Lifetime|Content root path: C:\Project\codeuin\CodeUin\CodeUin.WebApi 
+2021-01-12 10:47:15.0112||INFO|::1|CodeUin.WebApi.Controllers.UsersController|-------用户注册------- 
+2021-01-12 10:47:58.5283||INFO||Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-01-12 10:47:58.5913||INFO||Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-01-12 10:47:58.6101||INFO||Microsoft.Hosting.Lifetime|Content root path: C:\Project\codeuin\CodeUin\CodeUin.WebApi 
+2021-01-12 11:37:05.8315||INFO||Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-01-12 11:37:05.9302||INFO||Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-01-12 11:37:05.9568||INFO||Microsoft.Hosting.Lifetime|Content root path: C:\Project\codeuin\CodeUin\CodeUin.WebApi 
+2021-01-12 11:37:13.0650||INFO|::1|CodeUin.WebApi.Controllers.UsersController|-------用户注册------- 
+2021-01-12 11:46:52.7804||INFO||Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-01-12 11:46:52.8649||INFO||Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-01-12 11:46:52.9002||INFO||Microsoft.Hosting.Lifetime|Content root path: C:\Project\codeuin\CodeUin\CodeUin.WebApi 
+2021-01-12 11:46:55.1652||INFO|::1|CodeUin.WebApi.Controllers.UsersController|-------用户注册------- 
+2021-01-12 14:49:57.1486|6|FATAL||Microsoft.AspNetCore.Hosting.Diagnostics|Application startup exception System.InvalidOperationException: Unable to resolve service for type 'Microsoft.Extensions.Logging.ILogger' while attempting to activate 'CodeUin.WebApi.Helpers.ErrorHandlingMiddleware'.
+   at Microsoft.Extensions.Internal.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass5_0.<UseMiddleware>b__0(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+2021-01-12 14:50:42.9471|6|FATAL||Microsoft.AspNetCore.Hosting.Diagnostics|Application startup exception System.InvalidOperationException: Unable to resolve service for type 'Microsoft.Extensions.Logging.ILogger' while attempting to activate 'CodeUin.WebApi.Helpers.ErrorHandlingMiddleware'.
+   at Microsoft.Extensions.Internal.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass5_0.<UseMiddleware>b__0(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+2021-01-12 14:51:56.0651||INFO||Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-01-12 14:51:56.1646||INFO||Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-01-12 14:51:56.1847||INFO||Microsoft.Hosting.Lifetime|Content root path: C:\Project\codeuin\CodeUin\CodeUin.WebApi 
+2021-01-12 14:56:50.2968||ERROR|::1|CodeUin.WebApi.Helpers.ErrorHandlingMiddleware|Fatal error encountered during command execution. 
+2021-01-12 14:57:29.3802||ERROR|::1|CodeUin.WebApi.Helpers.ErrorHandlingMiddleware|Fatal error encountered during command execution. 
+2021-01-12 14:59:23.9092||INFO||Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-01-12 14:59:24.0039||INFO||Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-01-12 14:59:24.0039||INFO||Microsoft.Hosting.Lifetime|Content root path: C:\Project\codeuin\CodeUin\CodeUin.WebApi 
+2021-01-12 15:00:27.1701||ERROR|::1|CodeUin.WebApi.Helpers.ErrorHandlingMiddleware|Unknown column 'Birthday' in 'field list' 
+2021-01-12 16:11:56.3341||INFO||Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-01-12 16:11:56.4218||INFO||Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-01-12 16:11:56.4686||INFO||Microsoft.Hosting.Lifetime|Content root path: C:\Project\codeuin\CodeUin\CodeUin.WebApi 
+2021-01-12 16:12:12.3882||ERROR|::1|CodeUin.WebApi.Helpers.ErrorHandlingMiddleware|Unknown column 'CreateDate' in 'field list' 
+2021-01-12 16:14:09.1546||INFO||Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-01-12 16:14:09.2652||INFO||Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-01-12 16:14:09.3006||INFO||Microsoft.Hosting.Lifetime|Content root path: C:\Project\codeuin\CodeUin\CodeUin.WebApi 
+2021-01-12 16:28:31.3191||INFO||Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-01-12 16:28:31.5438||INFO||Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-01-12 16:28:31.5547||INFO||Microsoft.Hosting.Lifetime|Content root path: C:\Project\codeuin\CodeUin\CodeUin.WebApi 
+2021-01-12 16:29:08.5417||ERROR|::1|CodeUin.WebApi.Helpers.ErrorHandlingMiddleware|You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'IsDelete, Email) VALUES ('空空', 0, NULL, NULL, now(),'719448cdb82b1eaad912fb0' at line 1 
+2021-01-12 16:29:46.4856||INFO||Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-01-12 16:29:46.6005||INFO||Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-01-12 16:29:46.7179||INFO||Microsoft.Hosting.Lifetime|Content root path: C:\Project\codeuin\CodeUin\CodeUin.WebApi 
+2021-01-12 16:31:33.0368||INFO||Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-01-12 16:31:33.1125||INFO||Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-01-12 16:31:33.1716||INFO||Microsoft.Hosting.Lifetime|Content root path: C:\Project\codeuin\CodeUin\CodeUin.WebApi 
+2021-01-12 17:44:21.5745||INFO||Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-01-12 17:44:21.6565||INFO||Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-01-12 17:44:21.7464||INFO||Microsoft.Hosting.Lifetime|Content root path: C:\Project\codeuin\CodeUin\CodeUin.WebApi 
+2021-01-12 17:46:09.2460||INFO||Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-01-12 17:46:09.3785||INFO||Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-01-12 17:46:09.3785||INFO||Microsoft.Hosting.Lifetime|Content root path: C:\Project\codeuin\CodeUin\CodeUin.WebApi 
+2021-01-12 17:47:29.8464||INFO||Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-01-12 17:47:29.9312||INFO||Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-01-12 17:47:29.9719||INFO||Microsoft.Hosting.Lifetime|Content root path: C:\Project\codeuin\CodeUin\CodeUin.WebApi 
+2021-01-12 17:47:47.3254||ERROR|::1|CodeUin.WebApi.Helpers.ErrorHandlingMiddleware|Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Object -> UserModel
+System.Object -> CodeUin.WebApi.Models.UserModel 
+2021-01-12 17:48:50.9850||INFO||Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-01-12 17:48:51.1034||INFO||Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-01-12 17:48:51.1277||INFO||Microsoft.Hosting.Lifetime|Content root path: C:\Project\codeuin\CodeUin\CodeUin.WebApi 
+2021-01-12 17:49:29.5610||ERROR|::1|CodeUin.WebApi.Helpers.ErrorHandlingMiddleware|Value cannot be null. (Parameter 'value') 
+2021-01-12 17:50:31.3450||ERROR|::1|CodeUin.WebApi.Helpers.ErrorHandlingMiddleware|Value cannot be null. (Parameter 'value') 
+2021-01-12 17:51:47.9104||INFO||Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-01-12 17:51:48.0057||INFO||Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-01-12 17:51:48.0349||INFO||Microsoft.Hosting.Lifetime|Content root path: C:\Project\codeuin\CodeUin\CodeUin.WebApi 
+2021-01-12 17:52:30.1494||ERROR|::1|CodeUin.WebApi.Helpers.ErrorHandlingMiddleware|IDX10603: Decryption failed. Keys tried: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+Exceptions caught:
+ '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' (Parameter 'KeySize') 
+2021-01-12 17:55:49.5239||INFO||Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-01-12 17:55:49.6029||INFO||Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-01-12 17:55:49.6855||INFO||Microsoft.Hosting.Lifetime|Content root path: C:\Project\codeuin\CodeUin\CodeUin.WebApi 
+2021-01-12 17:56:26.7149||ERROR|::1|CodeUin.WebApi.Helpers.ErrorHandlingMiddleware|IDX10603: Decryption failed. Keys tried: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+Exceptions caught:
+ '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' (Parameter 'KeySize') 
+2021-01-12 18:01:01.6627||INFO||Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-01-12 18:01:01.8132||INFO||Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-01-12 18:01:01.8878||INFO||Microsoft.Hosting.Lifetime|Content root path: C:\Project\codeuin\CodeUin\CodeUin.WebApi 
+2021-01-12 18:01:11.8646||ERROR|::1|CodeUin.WebApi.Helpers.ErrorHandlingMiddleware|IDX10603: Decryption failed. Keys tried: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+Exceptions caught:
+ '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' (Parameter 'KeySize') 
+2021-01-12 18:15:03.9076||INFO||Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-01-12 18:15:04.0182||INFO||Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-01-12 18:15:04.0703||INFO||Microsoft.Hosting.Lifetime|Content root path: C:\Project\codeuin\CodeUin\CodeUin.WebApi 
+2021-01-12 18:44:39.3773||INFO||Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-01-12 18:44:39.5642||INFO||Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-01-12 18:44:39.6746||INFO||Microsoft.Hosting.Lifetime|Content root path: C:\Project\codeuin\CodeUin\CodeUin.WebApi 
+2021-01-12 18:49:03.5234||INFO||Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-01-12 18:49:03.6898||INFO||Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-01-12 18:49:03.8832||INFO||Microsoft.Hosting.Lifetime|Content root path: C:\Project\codeuin\CodeUin\CodeUin.WebApi 
+2021-01-12 18:53:56.6713||INFO||Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-01-12 18:53:56.7893||INFO||Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-01-12 18:53:56.8450||INFO||Microsoft.Hosting.Lifetime|Content root path: C:\Project\codeuin\CodeUin\CodeUin.WebApi 

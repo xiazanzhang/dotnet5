@@ -1,0 +1,9 @@
+2021-01-11 17:21:13.1031||INFO||Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-01-11 17:21:13.1814||INFO||Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-01-11 17:21:13.2098||INFO||Microsoft.Hosting.Lifetime|Content root path: C:\Project\codeuin\CodeUin\CodeUin.WebApi 
+2021-01-11 17:22:34.5912||INFO|::1|CodeUin.WebApi.Controllers.UsersController|-------用户注册------- 
+2021-01-11 17:24:51.4944||INFO|::1|CodeUin.WebApi.Controllers.UsersController|-------用户注册------- 
+2021-01-11 17:33:44.5504||INFO||Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-01-11 17:33:44.6409||INFO||Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-01-11 17:33:44.6743||INFO||Microsoft.Hosting.Lifetime|Content root path: C:\Project\codeuin\CodeUin\CodeUin.WebApi 
+2021-01-11 17:33:59.5187||INFO|::1|CodeUin.WebApi.Controllers.UsersController|-------用户注册------- 
